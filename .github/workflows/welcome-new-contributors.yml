@@ -9,7 +9,7 @@ jobs:
   post-welcome-message:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    if: ${{ github.repository == 'WordPress/wordpress-develop' }}
+    if: ${{ github.repository == 'ughimire/wp-plugin-automation-boilerplate' }}
 
     steps:
       - uses: wow-actions/welcome@fafa00fbd13d9c5d0fbd761c249153506c62bcd8 # v1.1.0
